@@ -2,7 +2,7 @@
 Using OpenXR, it add  a decoupled VR implementation to the Bee game engine (Breda university of applied Science)
 ![image](https://github.com/user-attachments/assets/89c13235-9cbb-4edd-84ff-91df3a5abeb6)
 
-IMPORTANT: Some files where temporally deleted because of temporally licensing doubts!! :  xrcomponent and renderXR files.
+IMPORTANT: Some files where temporally deleted because of licensing doubts!! :  xrcomponent and renderXR files.
 
 Take a look at the Blog where more insights are explained:
 
