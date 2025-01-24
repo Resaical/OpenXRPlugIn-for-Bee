@@ -5,7 +5,7 @@ Using OpenXR, it add  a decoupled VR implementation to the Bee game engine (Bred
 IMPORTANT: Some files where temporally deleted because of licensing doubts!! :  xrcomponent and renderXR files.
 
 Take a look at the Blog where more insights are explained:
-
+[an-easy-openxr-vr-implementation-for-c-games](https://medium.com/@javiercarranzaburgueno/an-easy-openxr-vr-implementation-for-c-games-93c161321a3b)
 
 ## Installation in Bee
 Version 0.2, little changes to avoid warmings.
