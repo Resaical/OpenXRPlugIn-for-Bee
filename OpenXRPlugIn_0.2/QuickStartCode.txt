@@ -1,0 +1,22 @@
+Place this includes and this code in your APP Creation for a quick start. ( Use the rendererXR, not the bee renderer_gl):
+
+//XR includes
+#include "openxrPlugIn.h"       
+#include "renderXR_gl.h"        
+#include "xrComponents.h"
+
+
+//XR Essential entities
+
+Engine.ECS().CreateSystem<OpenxrPlugIn>().Init();            
+Engine.ECS().CreateSystem<bee::XRComponentsSystem>();
+Engine.ECS().CreateSystem<RendererXR>(); 
+
+Entity xrRigEntity;
+Entity xrCameraEntity;
+Entity lHandEntity;
+Entity rHandEntity;
+
+Engine.ECS().GetSystem<XRComponentsSystem>().CreateXRRig(xrRigEntity, xrCameraEntity, lHandEntity, rHandEntity);
+
+//For attach Models to your controllers just create a new entity with the model and make it child of the hand entities
